@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <title> Nouveau stagiaire </title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/jquery-ui-1.10.4.custom.css">
+    <link rel="stylesheet" href="../css/monStyle.css">
+
+    <style>
+   fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+    </style>
+ 
+  <body>        
+<br><br><br>
+<div class="contaiiner">
+
+
+    <div class="panel panel-primary">
+        <div class="panel-heading" align="center"> Nouveau stagiaire</div>
+        <div class="panel-body">
+           
+<fieldset class="dias">
+            <legend>Date et l'heure de l'accident</legend>
+                    <label for="calendar1" class="control-label col-sm-2"> Date </label>
+                    <div class="col-sm-4">
+                        <input required type="text" name="date_accident" id="calendar1" class="form-control">
+                    </div>
+                    <br><br>
+                    <label for="heure" class="control-label col-sm-2"> L'heure </label>
+                    <div class="col-sm-4">
+                        <input required type="text" name="heure" id="heure" class="form-control">
+                    </div>
+            </fieldset>
+
+            <fieldset class="scheduler-border">
+                <legend class="scheduler-border">Start Time</legend>
+                <div class="control-group">
+                    <label class="control-label input-label" for="startTime">Start :</label>
+                    <div class="controls bootstrap-timepicker">
+                        <input type="text" class="datetime" id="startTime" name="startTime" placeholder="Start Time" />
+                        <i class="icon-time"></i>
+                    </div>
+                </div>
+            </fieldset>s
+</body>
+</html>
